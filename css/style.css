@@ -213,6 +213,9 @@ font-size: 15px;
     margin-top: -175px;
     margin-bottom: -300px;
   }
+  #experience{
+    padding-top: 30px;
+  }
   .portfolio-item{
     margin-left: 25%;
   }

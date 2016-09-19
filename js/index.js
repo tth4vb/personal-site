@@ -2,7 +2,7 @@ $('a.links').click(function (e){
    e.preventDefault();
    var div_id = $('a.links').index($(this))
    $('.divs').fadeOut(750).eq(div_id).fadeIn(750);
-
+	$('.mainInfo').animate({ scrollTop: $('.divs').position().top });
 });
 
 //for portfolio page
